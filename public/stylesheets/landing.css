@@ -292,6 +292,7 @@ h1 {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 5;
 }
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
@@ -338,10 +339,8 @@ img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   /* grid-template-columns: repeat(auto-fill, minmax(300px, 2fr)); */
-  grid-gap: 0;
+  grid-gap: 5;
 }
-
-
 /* hover styles */
 .location-listing {
   position: relative;
@@ -397,6 +396,29 @@ img {
 }
 /*------------------------------------Grid gallery------------------------------------*/
 
+#abouthead{
+  text-align:center; 
+  font-family:Khula;
+  font-size:1em;
+  font-weight: 800; 
+  padding-top: 2rem;
+}
+#aboutchild{
+  font-family:Khula;
+  font-size:1em;
+  font-weight: 400;
+  text-align:center; 
+}
+.p-5 {
+  padding: 4rem!important;
+}
+.pt-80 {
+  padding-top: 60px;
+}
+#aboutdiv{
+  width: 1560px;
+  height: 140px;
+}
 
 
 

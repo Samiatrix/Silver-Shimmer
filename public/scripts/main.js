@@ -35,6 +35,9 @@ window.addEventListener("DOMContentLoaded", function(e) {
 // function([string1, string2],target id,[color1,color2])    
 consoleText(['Explore our work', 'Console Text', 'Made with Love.'], 'text',['tomato','rebeccapurple','lightblue']);
 
+consoleText(['About Us'], 'text2',['tomato']);
+consoleText(['Our Videos'], 'text3',['tomato']);
+
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#fff'];
   var visible = true;
