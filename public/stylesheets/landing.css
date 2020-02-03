@@ -309,8 +309,9 @@ h1 {
  
   font-family:Khula;
   font-size:4em;
+  font-weight: 800;
   text-align:center;
-  height:200px;
+  height:110px;
   width:600px;
   display:block;
   color:white;
@@ -319,6 +320,7 @@ h1 {
   left:0;
   right:0;
   margin:auto;
+  padding-top: 15px;;
 }
 .console-underscore {
    display:inline-block;
@@ -327,6 +329,7 @@ h1 {
   left:10px;
 }
 /*------------------------------------Grid gallery------------------------------------*/
+
 img {
   width: 100%; /* need to overwrite inline dimensions */
   height: auto;
@@ -337,6 +340,8 @@ img {
   /* grid-template-columns: repeat(auto-fill, minmax(300px, 2fr)); */
   grid-gap: 0;
 }
+
+
 /* hover styles */
 .location-listing {
   position: relative;

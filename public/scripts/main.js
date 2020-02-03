@@ -21,6 +21,17 @@ $(document).ready(function(){
   });
 });
 
+window.addEventListener("DOMContentLoaded", function(e) {
+
+  var stage = document.getElementById("firstgrid");
+  var fadeComplete = function(e) { stage.appendChild(arr[0]); };
+  var arr = stage.getElementsByTagName("img");
+  for(var i=0; i < arr.length; i++) {
+    arr[i].addEventListener("animationend", fadeComplete, false);
+  }
+
+}, false);
+
 // function([string1, string2],target id,[color1,color2])    
 consoleText(['Explore our work', 'Console Text', 'Made with Love.'], 'text',['tomato','rebeccapurple','lightblue']);
 
