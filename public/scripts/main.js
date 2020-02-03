@@ -86,3 +86,15 @@ function consoleText(words, id, colors) {
     }
   }, 400)
 }
+
+$(".vid").ready(function(){
+  var playersrc = $('iframe').attr('src');
+
+      $('.vid').hover(function(){
+           $(this).find('iframe').attr('src',playersrc+'&autoplay=1');
+      }, function(){
+          $(this).find('iframe').attr('src',playersrc);
+      });
+});
+
+

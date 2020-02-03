@@ -399,15 +399,18 @@ img {
 #abouthead{
   text-align:center; 
   font-family:Khula;
-  font-size:1em;
+  font-size:2em;
   font-weight: 800; 
   padding-top: 2rem;
 }
 #aboutchild{
   font-family:Khula;
-  font-size:1em;
-  font-weight: 400;
+  font: size 2em;
+  font-weight: 800;
   text-align:center; 
+  width: 700px;
+  margin: auto;
+  
 }
 .p-5 {
   padding: 4rem!important;
@@ -415,15 +418,12 @@ img {
 .pt-80 {
   padding-top: 60px;
 }
+
 #aboutdiv{
-  width: 1560px;
-  height: 140px;
+  background-image: url("/Pic/ba.jpg");
+  width: 100%;
+  height: 480px;
 }
-
-
-
-
-
 
 
 /* Base Styling */
