@@ -1,3 +1,5 @@
+
+
 // When the user scrolls the page, execute myFunction
 window.onscroll = function() {myFunction()};
 
@@ -21,6 +23,7 @@ $(document).ready(function(){
   });
 });
 
+
 window.addEventListener("DOMContentLoaded", function(e) {
 
   var stage = document.getElementById("firstgrid");
@@ -36,7 +39,6 @@ window.addEventListener("DOMContentLoaded", function(e) {
 consoleText(['Explore our work', 'Console Text', 'Made with Love.'], 'text',['tomato','rebeccapurple','lightblue']);
 
 consoleText(['About Us'], 'text2',['tomato']);
-consoleText(['Our Videos'], 'text3',['tomato']);
 
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#fff'];
@@ -97,4 +99,43 @@ $(".vid").ready(function(){
       });
 });
 
+$('.owl-carousel').owlCarousel({
+  stagePadding: 200,
+  loop:true,
+  margin:10,
+  nav:false,
+  items:1,
+  lazyLoad: true,
+  nav:true,
+responsive:{
+      0:{
+          items:1,
+          stagePadding: 60
+      },
+      600:{
+          items:1,
+          stagePadding: 100
+      },
+      1000:{
+          items:1,
+          stagePadding: 200
+      },
+      1200:{
+          items:1,
+          stagePadding: 250
+      },
+      1400:{
+          items:1,
+          stagePadding: 300
+      },
+      1600:{
+          items:1,
+          stagePadding: 350
+      },
+      1800:{
+          items:1,
+          stagePadding: 400
+      }
+  }
+})
 

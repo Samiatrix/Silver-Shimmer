@@ -21,7 +21,7 @@ h1 {
   .wrapper {
     position: relative;
     height: 100vh;
-    width: 100vw;
+    width: auto;
     overflow: hidden;
   }
   
@@ -419,6 +419,11 @@ h1 {
     padding-top: 20px;
   }
   
+  .location-image .vid{
+    padding: 0px 20px;
+    align-content: center;
+  }
+
   #aboutdiv{
     background-image: url("/public/Pic/ba.jpg");
     width: 100%;
@@ -426,31 +431,30 @@ h1 {
   }
   
   #ques{
-    padding: 20px 20px;
+    margin-top: 0px;
+    padding-bottom: 20px;
     font-weight: 800;
     font-size: 5rem;
     text-align: center;
   }
   
-  #enq{
-    padding: 20px 20px;
-  }
-  #enq img{
-    width: 43%;
-    height: auto;
-    margin: 35px 50px;
-  }
   
+  #enq{
+    background-image: url("/public/Pic/woman-in-floral-dress-standing-beside-door-2106463.jpg");
+    height: calc(100vh - 250px);
+  }
   
   .form{
+    position: absolute;
+    right: 0px;
     width:500px;
-    height:475px;
-    background:#e6e6e6;
+    height:600px;
     border-radius:8px;
+    background-color: white;
     box-shadow:0 0 40px -10px #000;
-    margin: 40px 150px;
+    margin: 50px 150px;
     /* margin:calc(50vh - 300px) auto; */
-    padding:20px 30px;
+    padding:40px 30px;
     max-width:calc(100vw - 40px);
     box-sizing:border-box;
     font-family:'Montserrat',sans-serif;
@@ -500,9 +504,6 @@ h1 {
     color:#fff;
   }
   
-  body {
-    margin: 0;
+  .jumbotron{
+    padding: 20px 40px;
   }
-  
-  
-  
